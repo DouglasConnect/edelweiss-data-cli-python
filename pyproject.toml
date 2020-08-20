@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "edelweiss-data-cli"
-version = "0.1.0a1"
+version = "0.1.0a2"
 description = "CLI client for EdelweissData"
 authors = ["Edelweiss Connect <info@edelweissconnect.com>"]
 readme = "README.md"
@@ -9,8 +9,7 @@ documentation = "https://github.com/DouglasConnect/edelweiss-data-cli-python"
 
 [tool.poetry.dependencies]
 python = "^3.6"
-edelweiss-data = "^0.2.4"
-docopt = "^0.6.2"
+edelweiss-data = "0.2.19b0"
 
 [tool.poetry.scripts]
 edelweiss = 'edelweiss_data_cli.__main__:main'
